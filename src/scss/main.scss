@@ -1,0 +1,13 @@
+// Базовые подключения
+@import "fonts";
+@import "settings";
+@import "vars";
+
+// Подключения компонентов страницы (маленькие)
+@import "./components/custom-select";
+
+// Подключения компонентов страницы (большие)
+@import "./components/header";
+@import "./components/hero";
+@import "./components/card";
+@import "./components/footer";

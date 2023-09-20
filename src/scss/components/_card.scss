@@ -1,0 +1,140 @@
+.card {
+  padding: 11px 0 40px;
+  background: #F0F0F0;
+
+  &-stats {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 6px auto 20px;
+
+    &__raiting {
+      font-size: 12px;
+      font-weight: 400;
+      line-height: 12px;
+      color: #2C2B31;
+    }
+
+    &__best-selling {
+      font-size: 12px;
+      font-weight: 400;
+      line-height: 12px;
+      color: #37D997;
+      text-decoration: underline;
+    }
+  }
+
+  &-title {
+    margin-bottom: 20px;
+    font-size: 19px;
+    font-weight: 700;
+    line-height: 18px;
+    color: #2C2B31;
+  }
+
+  &-swiper {
+    width: 100%;
+    margin: 0 auto 20px;
+    text-align: center;
+
+    .swiper-slide {
+      cursor: pointer;
+    }
+  }
+
+  &-swiper-thumbs {
+    width: 100%;
+    margin-bottom: 20px;
+
+    .swiper-slide-thumb-active {
+      opacity: 0.4;
+    }
+
+    .swiper-slide {
+      cursor: pointer;
+    }
+  }
+
+  &-info {
+    &__delivery {
+      margin-bottom: 12px;
+      font-size: 15px;
+      font-weight: 400;
+      line-height: 15px;
+      color: #000;
+    }
+
+    &__stock {
+      margin-bottom: 12px;
+      font-size: 15px;
+      font-weight: 400;
+      line-height: 15px;
+      color: #000;
+    }
+
+    &__stars {
+      display: flex;
+      align-items: center;
+      margin-bottom: 20px;
+    }
+
+    &__star {
+      margin-right: 4px;
+      width: 14px;
+      height: 13px;
+
+      &:last-child {
+        margin-right: 10px;
+      }
+
+      &_visible {
+        background-image: url('../resources/images/star.svg');
+        background-size: contain;
+        background-repeat: no-repeat;
+      }
+    }
+
+    &__feedback-count {
+      font-size: 15px;
+      font-weight: 400;
+      line-height: 15px;
+      color: #2C2B31;
+    }
+  }
+
+  &-form {
+    &-options {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 20px;
+
+      &__item {
+        text-align: center;
+      }
+
+      &__heading {
+        margin-bottom: 4px;
+        font-size: 10px;
+        font-weight: 400;
+        line-height: 10px;
+        color: #2C2B31;
+      }
+    }
+
+    &__btn {
+      display: block;
+      width: 100%;
+      height: 50px;
+      padding-top: 11px;
+      border-radius: 15px;
+      background: #37D997;
+      font-size: 30px;
+      font-weight: 400;
+      line-height: 29px;
+      text-align: center;
+      color: #fff;
+      text-transform: uppercase;
+    }
+  }
+}

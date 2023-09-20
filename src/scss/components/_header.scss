@@ -1,0 +1,33 @@
+.header {
+  &-top {
+    height: 33px;
+    background: #F19D2F;
+
+    &__special-offer {
+      padding-top: 11px;
+      font-size: 13px;
+      font-weight: 400;
+      line-height: 12px;
+      color: #2C2B31;
+      text-align: center;
+      text-transform: uppercase;
+    }
+  }
+
+  &-logo {
+    padding: 19px 0;
+    background: #FFD1AC;
+    text-align: center;
+
+    &__icon {
+      margin-bottom: 10px;
+    }
+
+    &__descr {
+      font-size: 13px;
+      font-weight: 400;
+      line-height: 13px;
+      text-align: center;
+    }
+  }
+}
