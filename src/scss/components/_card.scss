@@ -109,8 +109,18 @@
       align-items: center;
       margin-bottom: 20px;
 
+      @media (max-width: 389.98px) {
+        flex-direction: column;
+      }
+
       &__item {
         text-align: center;
+
+        @media (max-width: 389.98px) {
+          &:not(:last-child) {
+            margin-bottom: 10px;
+          }
+        }
       }
 
       &__heading {
